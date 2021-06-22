@@ -1,0 +1,9 @@
+server:
+  port: 8080
+logging:
+  level:
+    root: WARN
+
+r2dbc:
+  url: r2dbc:h2:mem:///feature_access_db
+  initialization-mode: always
